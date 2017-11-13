@@ -53,8 +53,7 @@ function Enter(key, room, role)
         gameInstance.SendMessage('ProjectManager', 'ExitPartner');
     }).on('message', function (message)
     {
-        console.log(message);
-        //gameInstance.SendMessage('Partner', 'GetData', message["data"]);
+        gameInstance.SendMessage('Partner', 'GetData', message.data);
     });
 
     multiparty.start();
