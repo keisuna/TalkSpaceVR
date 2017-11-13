@@ -44,13 +44,13 @@ function Enter(key, room, role)
         $(vNode).appendTo("#streams");
         videoval = document.getElementById(video["id"]);
         document.getElementById(video["id"]).style.display = "none";
-        gameInstance.SendMessage('ProjectManager', 'EnterPartner', 1);
+        gameInstance.SendMessage('ProjectManager', 'EnterPartner');
     }).on('ms_close', function (peer_id)
     {
         console.log("exit other");
         // remove peer video
         $("#" + peer_id).remove();
-        gameInstance.SendMessage('ProjectManager', 'ExitPartner', 1);
+        gameInstance.SendMessage('ProjectManager', 'ExitPartner');
     }).on('message', function (message)
     {
         gameInstance.SendMessage('Partner', 'GetData', message);
