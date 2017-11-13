@@ -53,7 +53,7 @@ function Enter(key, room, role)
         gameInstance.SendMessage('ProjectManager', 'ExitPartner');
     }).on('message', function (message)
     {
-        
+        console.log(message["date"]);
         gameInstance.SendMessage('Partner', 'GetData', message["data"]);
     });
 
