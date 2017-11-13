@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "TalkSpaceVR.data.unityweb",
+"asmCodeUrl": "TalkSpaceVR.asm.code.unityweb",
+"asmMemoryUrl": "TalkSpaceVR.asm.memory.unityweb",
+"asmFrameworkUrl": "TalkSpaceVR.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
