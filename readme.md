@@ -5,6 +5,7 @@ TalkSpaceVR
 
  https://keisuna.github.io/TalkSpaceVR/
 
+※現在作成途中です
 
 
 コンテンツ内容
