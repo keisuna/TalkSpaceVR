@@ -51,6 +51,7 @@ function Enter(key, room, role)
         // remove peer video
         $("#" + peer_id).remove();
         gameInstance.SendMessage('ProjectManager', 'ExitPartner');
+        gameInstance.SendMessage('Partner', 'GetData', -1);
     }).on('message', function (message)
     {
         gameInstance.SendMessage('Partner', 'GetData', message.data);

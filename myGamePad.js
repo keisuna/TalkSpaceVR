@@ -1,6 +1,6 @@
 var IdR = 0;
 var IdL = 1;
-var appeard = [true, true];
+var appeard = [false, false];
 function ControllerUpdate() {
     var RController = GetGamePads(IdR);
     if (RController != null) {
