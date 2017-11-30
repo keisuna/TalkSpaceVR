@@ -12,7 +12,7 @@ TalkSpaceVR
 
 VR空間で遠方の人ともコミュニケーションをとることができるプライベートルームを提供します
 
-
+![result](https://github.com/keisuna/TalkSpaceVR/blob/Movie/TalkSpaceVR.gif)
 　　　
 
 動作環境(確認済み):
